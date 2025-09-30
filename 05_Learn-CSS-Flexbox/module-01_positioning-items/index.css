@@ -1,0 +1,16 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home {
+  margin-right: auto;
+}
+
+/* set 
+  margin-left: auto 
+  or 
+  margin-right: auto 
+  on individual items to position them individually
+*/

@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s06ino4",
+  "description": "https://scrimba.com/advanced-javascript-c03kpi3kss/~06fp",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

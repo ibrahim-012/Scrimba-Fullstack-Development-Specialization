@@ -1,0 +1,82 @@
+html, body {
+    /* so result section fills remaining space at the bottom and covers purple background*/
+    height: 100%; 
+}
+
+body {
+    margin: 0;
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    background-color: #6943FF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#interact-section {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-num {
+    margin: 0;
+    margin-top: 20px;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 4px;
+    width: 70px;
+    height: 70px;
+    padding: 20px 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#input-num:focus {
+    border: 2px solid #B295FF;
+    outline: none;
+}
+
+#btn-convert {
+    margin: 0;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: none;
+    color: #3D3D3D;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+#btn-convert:hover {
+    background-color: #c8bef0;
+}
+
+#result-section {
+    margin: 0;
+    margin-top: 40px;
+    background-color: #1F2937;
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.units-card {
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: #273549;
+}
+
+.units-card h3 {
+    margin: 0;
+    color: #CCC1FF;
+}
+
+.p-result {
+    margin: 0;
+    margin-top: 10px;
+    color: #FFFFFF;
+}

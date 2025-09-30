@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex: 1 Demo</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
+    }
+
+    .box {
+      padding: 20px;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    #box1 {
+      background: #e63946; /* red */
+      height: 60px;        /* fixed */
+    }
+
+    #box2 {
+      background: #457b9d; /* blue */
+      height: 100px;       /* fixed */
+    }
+
+    /* Watch this one grow */
+    #box3 {
+      background: #2a9d8f; /* green */
+      flex: 1;             /* 🔥 fill leftover space */
+    }
+  </style>
+</head>
+<body>
+  <div id="box1" class="box">Box 1 (fixed height)</div>
+  <div id="box2" class="box">Box 2 (fixed height)</div>
+  <div id="box3" class="box">Box 3 (flex: 1 → fills rest)</div>
+</body>
+</html>

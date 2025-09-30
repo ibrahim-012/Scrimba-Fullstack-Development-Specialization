@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s06ilci",
+  "description": "https://scrimba.com/advanced-javascript-c03kpi3kss/~0ka?embed=coursera%2Cno-header%2Cno-next-up",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
