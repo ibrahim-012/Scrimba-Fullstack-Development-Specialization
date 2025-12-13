@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "dependencies": {
+    "react": "19.0.0-rc-e56f4ae3-20240830",
+    "react-dom": "19.0.0-rc-e56f4ae3-20240830"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "@vitejs/plugin-react": "*"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
