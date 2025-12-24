@@ -1,0 +1,81 @@
+1.
+Question 1
+When building an interactive on-screen keyboard for player input in React, which of the following methods can be used to handle key presses?
+
+onKeyDown
+onBlur
+onClick
+onHover
+
+2.
+Question 2
+What is the best way to disable keyboard input when the game ends in a React application?
+
+Hide the keyboard using CSS
+Set the state to ignore keyboard events
+Refresh the page
+Remove the event listeners for keyboard input
+
+3.
+Question 3
+How do you display only guessed letters in a word in React?
+
+Use the find() function to locate guessed letters
+Use the map() function to replace unguessed letters with underscores
+Use the filter() function to remove unguessed letters
+Use the slice() function to segment guessed and unguessed letters
+
+4.
+Question 4
+When planning the structure of the Assembly Endgame project in React, which of the following is an essential step to ensure the application is scalable and maintainable?
+
+Use global variables for state management
+Avoid using reusable components
+Hardcode all data into components
+Define a clear component hierarchy
+
+5.
+Question 5
+In a React-based hangman game, if a player makes an incorrect guess, what should be the primary action to update the game status?
+
+Display a 'Game Over' message
+Increase the count of guesses
+Decrease the remaining time
+Restart the game
+
+6.
+Question 6
+In a React component, how can you conditionally render a message indicating whether a game is won or lost?
+
+By using a switch statement inside the render method to choose the message.
+By directly modifying the DOM with JavaScript to display the message.
+By using CSS to hide or show the message based on the game state.
+By using a ternary operator to check the game state and render the appropriate message.
+
+7.
+Question 7
+When creating a header for the game information in a React application, which of the following is the most appropriate HTML tag to use?
+
+<section>
+<span>
+<header>
+<div>
+
+8.
+Question 8 (checkboxes so multiple answers can be valid)
+Which of the following practices can improve keyboard and screen reader support for a React application?
+
+Adding  tabindex  to non-interactive elements
+Providing  aria-labels  for interactive elements
+Using semantic HTML elements
+Using divs instead of buttons for clickable elements
+Ensuring that all interactive elements are focusable
+
+9.
+Question 9
+What is the correct way to display a list of available languages for a game in React?
+
+Use the  map  function to iterate over the languages array and render each language.
+Use the  filter  function to display the list of languages.
+Use the  forEach  function to iterate over the languages array and render each language.
+Use the  reduce  function to accumulate the languages into a single string for display.

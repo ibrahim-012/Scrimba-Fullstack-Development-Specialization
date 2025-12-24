@@ -1,0 +1,89 @@
+1.
+Question 1
+When managing the end conditions of a game in React, which method is best to reset the game state for a new game?
+
+Calling a method that sets the state back to its initial values
+Directly modifying the state variables
+Using the componentWillUnmount lifecycle method
+Using the component's constructor to reinitialize the state
+
+2.
+Question 2
+What is the initial state of the  dice  array in the Tenzies game setup in React?
+
+An array of random numbers between 1 and 6 for each die
+An array of numbers from 1 to 10 for each die
+An array of objects with each object containing a number between 1 and 6
+An array of null values
+
+3.
+Question 3
+In a React application, when mapping an array to render multiple  Die  components, what is the main reason for assigning a unique  key  to each component?
+
+To apply specific styles to each  Die  component
+To help React identify which items have changed, are added, or are removed
+To ensure that each  Die  component renders independently
+To pass unique data to each  Die  component
+
+4.
+Question 4
+What is the primary purpose of adding a button to roll and update the dice in a React application?
+
+To improve application performance
+To display static content
+To allow user interaction
+To manage application state
+
+5.
+Question 5
+In the context of a dice game in React, what is the primary purpose of implementing a hold functionality for individual dice?
+
+To reset all dice values to their initial state
+To allow players to retain certain dice values between turns
+To automatically roll the dice for the player
+To increase the number of dice in play
+
+6. 
+Question 6 (checkboxes so multiple answers can be valid)
+Which of the following practices can enhance the accessibility of a React game for users with disabilities?
+
+Ensuring keyboard navigability throughout the game
+Providing video captions and transcripts
+Using color alone to convey important information
+Providing alternative text for images
+
+7.
+Question 7
+What is the most efficient way to generate an array of 10 random numbers in JavaScript?
+
+Use a while loop and Math.floor()
+Use Array.prototype.map() with Math.random()
+Use Array.prototype.filter() with Math.random()
+Use a for loop and Math.random()
+
+8.
+Question 8
+In the context of converting dice values to objects in React, which of the following is a primary benefit of using objects over traditional arrays?
+
+Objects allow for more descriptive properties, such as color and material, in addition to the value of the dice.
+Objects are faster to iterate over than arrays when processing dice values.
+Objects automatically sort the dice values in ascending order.
+Objects use less memory than arrays when storing dice values.
+
+9.
+Question 9
+In a React application, how can you conditionally style a dice element when it is held?
+
+Use a switch statement inside the render method to change the dice element's class based on its state.
+Create a separate CSS file for the held state and import it when needed.
+Directly modify the CSS file to change the styles when the dice is held.
+Use a ternary operator within the  className  attribute to apply a specific CSS class based on the dice's 'held' state.
+
+10.
+Question 10
+When creating a Die component to display individual dice in React, which of the following methods is the most appropriate for maintaining the state of the rolled value?
+
+Using the useState hook to manage the rolled value state
+Declaring a global variable to store the rolled value
+Passing the rolled value as a prop from a parent component
+Storing the rolled value in a ref using the useRef hook
